@@ -40,7 +40,7 @@ show_raw = st.sidebar.checkbox("Show Raw Data", value=False)
 show_confidence = st.sidebar.checkbox("Show Forecast Confidence", value=False)
 
 if st.sidebar.button('Home'):
-    webbrowser.open('https://predistock.netlify.app/')
+    webbrowser.open('https://predistocks.netlify.app/')
 
 # ---------------- STOCK SEARCH ----------------
 
@@ -230,4 +230,5 @@ if stock_symbol:
 
 else:
     st.warning("Please enter a company name or stock symbol.")
+
 
